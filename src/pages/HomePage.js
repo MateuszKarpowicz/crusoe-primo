@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Layout from "../components/Layout";
 import WeProvide from '../components/WeProvideTxt';
@@ -18,33 +19,33 @@ const HomePage = () => {
     return (
         <Layout>
             <div className="content-container">
-                    <div className='content-container_up'>
-                        <div className="header-container">
+                <RoomAdminWidget/>
+                <div className='content-container_up'>
+                    <div className="header-container">
                         <HeaderTxt />
+                    </div>
+                    <div className="apartment-card-block">
+                        <div className="apartment-card-block-left-side">
+                            <InvitationTxt />
+                            <WeProvide />
                         </div>
-                        <div className="apartment-card-block">
-                            <div className="apartment-card-block-left-side">
-                        <InvitationTxt />
-                        <WeProvide />
+                        <div className="apartment-card-block-right-side">
+                            <BootstrapSlider />
                         </div>
-                            <div className="apartment-card-block-right-side">
-                        <BootstrapSlider />
-                            </div>
-                    </div>
-                    </div>
-                    <div className='content-container_mid'>
-                        <Highlights/>
-                        <SloganCrusoe/>
-                    </div>
-                    <div className='content-container_lower'>
-                        <RoomAdminWidget/>
-                        <Awards/>
-                        <Together/>
-                    </div>
-                    <div className='content-container_bottom'>
-                        <BootstrapReviewCarusel/>
                     </div>
                 </div>
+                <div className='content-container_mid'>
+                    <Highlights/>
+                    <SloganCrusoe/>
+                </div>
+                <div className='content-container_lower'>
+                    <Awards/>
+                    <Together/>
+                </div>
+                <div className='content-container_bottom'>
+                    <BootstrapReviewCarusel/>
+                </div>
+            </div>
         </Layout>
     );
 };

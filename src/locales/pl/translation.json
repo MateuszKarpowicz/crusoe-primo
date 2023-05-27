@@ -1,5 +1,52 @@
+
 {
-  "footer": {
+
+  "homePageText": {
+    "weProvide": "Zapewniamy",
+    "listItem1": "Malownicze miasteczko Primošten!",
+    "listItem2": "Idealna lokalizacja do zwiedzania",
+    "listItem3": "Kilka kroków do plaży",
+    "listItem4": "Bliskość atrakcji Primošten",
+    "listItem5": "Komfort i styl"
+  },
+
+
+
+  "invitationTxt": {
+    "description": "Twoje wymarzone miejsce na urlop! W apartamencie w malowniczym Primošten! Zlokalizowanym w jednym z najpiękniejszych nadmorskich miasteczek Chorwacji. Oferuje wyjątkowe doświadczenie pobytu, połączone z przepięknymi widokami na morze i okoliczne krajobrazy."
+  },
+
+  "headerTxt" : {
+    "header": "Luksusowe apartamenty w klimatycznym Primosten"
+  },
+
+  "togetherPage":{
+    "description" : "Apartament jest dogodnie usytuowany w pobliżu licznych atrakcji Primošten. Możesz cieszyć się spacerami po urokliwej starej części miasta, odkrywać lokalne restauracje i bary, oraz korzystać z pięknych plaż, które są zaledwie kilka kroków od apartamentu."
+  },
+  "apartmentCard": {
+    "title": "Crusoe Primošten",
+    "titlePS" : "Starannie zaprojektowany, pełen stylu i komfortu. Z przepięknymi widokami na Adriatyk.",
+    "feature1": "Położony w malowniczym miasteczku Primošten.",
+    "feature2": "Elegancki apartament z wygodną strefą wypoczynkową i jadalnią.",
+    "feature3": "Komfortowa, przestronna sypialnia.",
+    "feature4": "Luksusowa łazienka do relaksu po dniu pełnym atrakcji.",
+    "feature5": "Pełni wyposażona kuchnia do samodzielnego gotowania.",
+    "feature6": "Taras z widokiem na błękitne wody Adriatyku.",
+    "feature7": "Idealna lokalizacja blisko atrakcji Primošten i plaż."
+  },
+  "roomAdmin": {
+    "book" : "Zarezerwuj"
+
+  },
+  "Kontakt": "Kontakt",
+  "Media": "Media",
+  "Apartamenty": "Apartamenty",
+
+
+
+
+
+"footer": {
     "contact": "Kontakt",
     "visitUs": "Odwiedź nas",
     "copy": "Kopiuj",
@@ -15,14 +62,7 @@
     "BOOK": "REZERWUJ"
   },
 
-  "homePageText": {
-    "weProvide": "Zapewniamy",
-    "listItem1": "Ścisłe centrum Krakowa, historyczna dzielnica!",
-    "listItem2": "Bardzo dobra komunikacja miejska w pobliżu",
-    "listItem3": "3 minuty piechotą do Rynku Głównego",
-    "listItem4": "5 minut piechotą do Wawel",
-    "listItem5": "śniadanie w cenie"
-  },
+
 
   "reviews": {
     "header": "Co mówią nasi goście",
@@ -41,22 +81,7 @@
 
   },
 
-  "invitationTxt": {
-    "description": "Jeśli planują Państwo romantyczny weekend we dwoje, dłuższy pobyt turystyczny czy wizytę biznesową w Krakowie, nasze prywatne apartamenty są dla Państwa idealną propozycją. Ich dogodne usytuowanie w samym sercu miasta, z jednej strony gwarantuje łatwy dostęp do najważniejszych zabytków, muzeów, restauracji, teatrów i innych centrów rozrywki. Z drugiej zaś strony, zapewnia spokój i dyskrecję. Zapewniamy osobisty serwis na najwyższym poziomie!"
-  },
 
-  "headerTxt" : {
-    "header": "Luksusowe apartamenty w sercu Krakowa"
-  },
-
-  "apartment1": {
-    "title": "Crusoe Kraków",
-    "description": "Luksusowe apartamenty w sercu Krakowa\nNasze nowoczesne apartamenty znajdują się na drugim piętrze historycznej, nowo odrestaurowanej kamienicy w sercu Krakowa. Doskonała lokalizacja. 2-5 minut piechotą do Rynku Glównego, Wawelu, Wisły. Blisko Dworca Głównego PKP, dworca autobusowego, komunikacji miejskiej co pozwala na wygodne zwiedzanie miasta. Apartament składa się z przechodniego salonu z aneksem kuchennym, osobnej sypialni i luksusowo urządzonej łazienki z dużym prysznicem i deszczownicą. Nowoczesny, luksusowy wystrój łączy się z pięknem XIX-wiecznej cegły, którą skrywały stare tynki. Uwagę przykuje także ozdobna podłoga, która klimatem pasuje do historycznego miejsca. W cenę pobytu wliczone jest pyszne śniadanie w uroczej kawiarence Bon Jour Cava, znajdującej się w sąsiedztwie apartamentu."
-
-
-
-
-  },
 
   "contactPage": {
     "title": "Kontakt",
@@ -69,7 +94,7 @@
     "submitButton": "Wyślij",
     "getDirectionsButton": "Jedź",
     "mapLabel": "Dojedź do nas",
-    "description": "ul. Piłsudskiego 11\n33-323 Kraków\nPolska"
+    "description": "Podakraje 4, Primosten, Croatia"
   },
   "friends": {
     "title": "Nasi przyjaciele"
@@ -77,21 +102,8 @@
   "sloganCrusoe":{
     "title":"Majestatycznie",
     "description":"Poznaj świat CRUSOE. Największym luksusem jest podróżować, pozostając szczęśliwym."
-  },
-  "togetherPage":{
-    "description" : "Nasze nowoczesne apartamenty znajdują się na drugim piętrze historycznej, nowo odrestaurowanej kamienicy w sercu Krakowa. Doskonała lokalizacja. 2-5 minut piechotą do Rynku Glównego, Wawelu, Wisły. Blisko Dworca Głównego PKP, dworca autobusowego, komunikacji miejskiej co pozwala na wygodne zwiedzanie miasta."
-  },
-  "apartmentCard": {
-    "title": "Crusoe Kraków",
-    "titlePS" : "Umeblowane w nowoczesnym stylu z wielką dbałością o szczegóły. W pełni wyposażone.",
-    "feature1": "Lokalizacja na drugim piętrze odrestaurowanej, XIX-wiecznej kamienicy.",
-    "feature2": "Nowoczesny, dwupokojowy apartament z przechodnim salonem z aneksem kuchennym.",
-    "feature3": "Osobna, komfortowa sypialnia.",
-    "feature4": "Luksusowo urządzona łazienka wyposażona w duży prysznic, bidet i deszczownicę.",
-    "feature5": "Zachowane, historyczne elementy, takie jak XIX-wieczna cegła i oryginalne tynki.",
-    "feature6": "Stylizowana, ozdobna podłoga dodająca charakteru.",
-    "feature7": "Pyszne śniadanie w kawiarence Bon Jour Cava, wliczone w cenę pobytu."
   }
+
 }
 
 

@@ -597,8 +597,8 @@ body {
         justify-content: flex-end;
         width: 100%;
         margin: 0;
-        padding-left: 160px;
-        padding-right: 10px;
+        padding-left: 170px;
+        padding-right: 1px;
     }
 
 
@@ -607,10 +607,11 @@ body {
         position: relative;
         width: 80px;
         height: 20px;
-        font-size: 10px;
+        font-size: 9px;
         justify-content: center;
         transform: rotate(-49deg);
-        margin: auto;
+        margin: 0;
+        padding: 0;
         z-index: 9999;
     }
 

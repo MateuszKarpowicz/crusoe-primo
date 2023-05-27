@@ -14,12 +14,13 @@
   background: linear-gradient(0.25turn, #B3803E, #0D0B0B);
 }
 .header-container{
-  margin-top: 50px;
+  margin-top: 10px;
   margin-bottom: 10px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size:0.9em;
 }
 .apartment-card-block{
   width: 100%;
@@ -67,12 +68,12 @@ font-size: 0.5em;
 }
 @media screen and (max-width: 850px){
   .content-container_lower{
-  height:1200px;
+  height:1000px;
   }
 }
 @media screen and (max-width: 650px){
   .content-container_lower{
-  height:1000px;
+  height:800px;
   }
 }
 

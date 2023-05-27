@@ -20,13 +20,14 @@
 
 
   "homePageText": {
-    "weProvide": "We Provide",
-    "listItem1": "The strict center of Krakow, a historic district!",
-    "listItem2": "Very good public transportation nearby",
-    "listItem3": "3 minutes walk to the Main Market Square",
-    "listItem4": "5 minutes walk to Wawel Castle",
-    "listItem5": "Breakfast included in the price"
+    "weProvide": "We provide",
+    "listItem1": "Picturesque Primošten town!",
+    "listItem2": "Ideal location for sightseeing",
+    "listItem3": "A few steps to the beach",
+    "listItem4": "Close to Primošten's attractions",
+    "listItem5": "Comfort and style"
   },
+
 
   "reviews": {
     "header": "What our guests say",
@@ -50,13 +51,9 @@
   },
 
   "headerTxt" : {
-    "header": "Luxury apartments in the heart of Krakow"
+    "header": "Luxury apartments in the heart of Primosten"
   },
 
-  "apartment1": {
-    "title": "Apartment 1",
-    "description": "Sample description of apartment 1."
-  },
 
   "contactPage": {
     "title": "Contact",
@@ -69,7 +66,7 @@
     "submitButton": "Submit",
     "getDirectionsButton": "Drive",
     "mapLabel": "Drive to us",
-    "description": "ul. Piłsudskiego 11\n33-323 Kraków\nPolska"
+    "description": "Podakraje 4, Primosten, Croatia"
   },
   "friends": {
     "title": "Our Friends"
@@ -84,15 +81,21 @@
     "description" : "Our modern apartments are located on the second floor of a historic, newly renovated tenement house in the heart of Krakow. Excellent location. 2-5 minutes walk to the Main Market, Wawel, Vistula. Close to the Main Railway Station, bus station, public transport which allows for convenient city sightseeing."
   },
   "apartmentCard": {
-    "title": "Crusoe Krakow",
-    "titlePS" : "Furnished in modern style with great attention to detail. Fully equipped.",
-    "feature1": "Location on the second floor of a restored, 19th-century tenement house.",
-    "feature2": "Modern, two-room apartment with a walk-through living room with a kitchenette.",
-    "feature3": "Separate, comfortable bedroom.",
-    "feature4": "Luxuriously furnished bathroom equipped with a large shower, bidet, and rain shower.",
-    "feature5": "Preserved, historical elements, such as 19th-century brick and original plaster.",
-    "feature6": "Styled, ornamental floor adding character.",
-    "feature7": "Delicious breakfast at the Bon Jour Cava cafe, included in the price of stay."
+    "title": "Crusoe Primošten",
+    "titlePS" : "Thoughtfully designed, full of style and comfort. With stunning views of the Adriatic.",
+    "feature1": "Located in the picturesque town of Primošten.",
+    "feature2": "Elegant apartment with a cozy lounge area and dining space.",
+    "feature3": "Comfortable, spacious bedroom.",
+    "feature4": "Luxury bathroom for relaxation after a day full of attractions.",
+    "feature5": "Fully equipped kitchen for self-catering.",
+    "feature6": "Terrace overlooking the azure waters of the Adriatic.",
+    "feature7": "Perfect location close to Primošten's attractions and beaches."
+  },
+  "Kontakt": "Contact",
+  "Media": "Media",
+  "Apartamenty": "Apartments",
+  "roomAdmin": {
+    "book" : "Book a Room"
   }
 }
 
