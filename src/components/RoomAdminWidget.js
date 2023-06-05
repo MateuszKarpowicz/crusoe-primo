@@ -9,7 +9,7 @@ function BookingWidget() {
         color_accent: "#b4813e",
         color_bg: "#202428",
         color_panel_header: "#808080",
-        color_panel_body: "#808080",
+        color_panel_body: "#FFFFFF",
         rounded_corners: true,
     };
 
