@@ -35,6 +35,10 @@
   width: 54px;
   background-size: cover;
   }
+  .highlights-sea{
+    height: 60px;
+    width: 54px;
+    background-size: cover;
 }
 @media screen and (max-width: 700px){
   .highlights-container{
@@ -65,6 +69,12 @@
     height: 35px;
   width: 32px;
   background-size: cover;
+    }
+  .highlights-sea{
+         height: 30px;
+        width: 30px;
+        background-size: cover;
   }
-  }
+}
+}
 }
