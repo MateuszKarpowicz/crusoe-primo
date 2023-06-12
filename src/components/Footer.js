@@ -35,19 +35,19 @@ function Footer() {
             <div className="footer-container">
                 <div className="footer-friends-container">
                     <div className="footer-friends-cava">
-                        <img className="footer-friends-cava-img" src={cavaFriends} alt="Cava Friends" />
+                    <a href="https://wolt.com/pl/pol/krakow/restaurant/bonjour-cava"><img className="footer-friends-cava-img" src={cavaFriends} alt="Cava Friends" /></a>
                     </div>
                     <div className="footer-friends-anioly">
-                        <img className="footer-friends-anioly-img" src={aniolyFriends} alt="Anioly Friends" />
+                    <a href="https://www.piekne-anioly.org/"><img className="footer-friends-anioly-img" src={aniolyFriends} alt="Anioly Friends" /></a>
                     </div>
                     <div className="footer-friends-nautica">
-                        <img className="footer-friends-nautica-img" src={nauticaFriends} alt="Nautica Friends" />
+                    <a href="https://nautica.pl/"><img className="footer-friends-nautica-img" src={nauticaFriends} alt="Nautica Friends" /></a>
                     </div>
                 </div>
                 <div className="footer-bandoc-pillow">
                     <img className="footer-bandoc-pillow-img" src={bandocPillowe} alt="Bandoc Pillow" />
                     <div className="footer-bandoc-logo">
-                        <img className="footer-bandoc-logo-img" src={bandocLogo} alt="Bandoc Logo" />
+                    <a href="https:/bandofcreators.com/"><img className="footer-bandoc-logo-img" src={bandocLogo} alt="Bandoc Logo" /></a>
                     </div>
                 </div>
                 <div className="footer-contact-container">

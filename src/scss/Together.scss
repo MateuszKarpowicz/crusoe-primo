@@ -33,12 +33,14 @@ overflow: hidden;
   line-height: 2em;
     }
 }
+
 .together-photo_container.show  {
   transform: translateY(0%); 
 }
 .together-text_container.show{
   transform: translateY(0%); 
 }
+
 @media screen and (max-width: 1170px){
   .together-text_container{
     
@@ -66,9 +68,9 @@ overflow: hidden;
 }
 .together-photo_container {
   position: relative;
-  height: 500px;
+  height: 510px;
   width: 500px;
-  border: 5px solid white;
+  border-radius: 20px;
   overflow: hidden;
   transform: translateY(-100%); 
   transition: transform 1s ease-in-out;
@@ -85,13 +87,13 @@ overflow: hidden;
 
 @media screen and (max-width: 1170px){
   .together-photo_container{
-    height: 300px;
-    width: 300px;
+    height: 460px;
+    width: 380px;
   }
 }
 @media screen and (max-width: 700px){
   .together-photo_container{
-    height: 200px;
-    width: 200px;
+    height: 800px;
+    width: 300px;
   }
 }
