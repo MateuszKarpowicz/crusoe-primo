@@ -45,6 +45,14 @@ const ApartmentCard = () => {
 
     return (
         <div className="apartment-card">
+            <div className="apartment-card-apartments">
+                <div className="apartment-card-apartments-button-silver">
+                    <span>Primosten Silver</span>
+                </div>
+                <div className="apartment-card-apartments-button-gold">
+                    <span>Primosten Gold</span>
+                </div>
+            </div>
             <div className="apartment-card-title">
                 <h3>{t('apartmentCard.title')}</h3>
                 <p>{t('apartmentCard.titlePS')}</p>
