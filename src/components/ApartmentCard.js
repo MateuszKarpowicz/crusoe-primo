@@ -9,6 +9,8 @@ import Image3 from '../assets/apartment/image7.webp';
 import Image4 from '../assets/apartment/image4.webp';
 import Image5 from '../assets/apartment/image5.webp';
 import ImageBig from '../assets/apartment/image1.webp'
+import Gold from '../assets/apartment/AP-GOLD.png'
+import Silver from '../assets/apartment/AP-SILVER.png'
 import HighlightsApartmentCard from "./HighlightsApartmentCard";
 import ApartmentCardGraphic from "../assets/apartmentcard/apartments-card-texture-down.png";
 
@@ -47,10 +49,12 @@ const ApartmentCard = () => {
         <div className="apartment-card">
             <div className="apartment-card-apartments">
                 <div className="apartment-card-apartments-button-silver">
-                    <span>Primosten Silver</span>
+                    <img src={Silver} alt="apartment-silver-icon" />
+                    <span>Apartment Silver</span>
                 </div>
                 <div className="apartment-card-apartments-button-gold">
-                    <span>Primosten Gold</span>
+                    <img src={Gold} alt="apartment-gold-icon" />
+                    <span>Apartment Gold</span>
                 </div>
             </div>
             <div className="apartment-card-title">

@@ -16,50 +16,60 @@
   padding-top: 60px;
 
   .apartment-card-apartments{
-    left: 0;
-    right: 0;
     width: 100%;
-    background-color: gray;
-    height: 100px;
+    background: linear-gradient(0.25turn, #B3803E, #0D0B0B);
+    height: 120px;
+    padding-top: 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;}
 
     .apartment-card-apartments-button-silver{
       font-size: 20px;
+      text-transform: uppercase;
       color: #FFFFFF;
+      cursor: pointer;
       text-align: center;
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 140px;
-      height: 52px;
-      background: transparent 0% 0% no-repeat padding-box;
-      box-shadow: 0px 8px 16px #351F09;
-      border-radius: 35px;
-      opacity: 1;
     }
+    .apartment-card-apartments-button-silver:hover{
+      color: #989898;
+    }
+    @media screen and (max-width: 850px){.apartment-card-apartments-button-silver{
+      font-size:13px;
+    
+    img{
+      height: 30%;
+      width: 30%;
+    }
+  }
+  }
 
     .apartment-card-apartments-button-gold{
       font-size: 20px;
+      text-transform: uppercase;
       color: #FFFFFF;
+      cursor: pointer;
       text-align: center;
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 140px;
-      height: 52px;
-      background: transparent 0% 0% no-repeat padding-box;
-      box-shadow: 0px 8px 16px #351F09;
-      border-radius: 35px;
-      opacity: 1;
     }
-
-
-
-
+    .apartment-card-apartments-button-gold:hover{
+color: #DBB27A;
+    }
+    @media screen and (max-width: 850px){.apartment-card-apartments-button-gold{
+      font-size:13px;
+    
+    img{
+      height: 30%;
+      width: 30%;
+    }
+  }
+  }
   .apartment-card-title {
-    margin-top: 55px;
     padding: 20px;
     
     h3{
@@ -112,7 +122,7 @@
         @media screen and (max-width: 850px) {
           img {
           max-width: 80vw;
-          padding-bottom: 20px;
+          margin-bottom: 20px;
           }
           }
       }
