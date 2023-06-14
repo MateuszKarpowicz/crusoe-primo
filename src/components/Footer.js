@@ -10,7 +10,8 @@ import phoneNavbar from '../assets/navbar/phone-navbar.png'
 import mailNavbar from '../assets/navbar/mail-navbar.png'
 import footerTexture from '../assets/footer/footer-texture.png'
 import apartmentsLogo from '../assets/footer/apartments-logo.png'
-import { Link } from "react-router-dom";
+import RegulaminPDF from '../pdf/Regulamin.pdf';
+import PolitykaPDF from '../pdf/Polityka.pdf';
 
 function Footer() {
 
@@ -29,6 +30,13 @@ function Footer() {
     const handleButtonPhone = () => {
         window.location.href = "tel:+48885398888";
     }
+    const handleButtonRegulamin = () => {
+        window.open(RegulaminPDF, "_blank");
+    };
+
+    const handleButtonPolityka = () => {
+        window.open(PolitykaPDF, "_blank");
+    };
 
     return (
         <div className="footer-wrapper">
@@ -88,20 +96,22 @@ function Footer() {
                     </div>
                     </div>
                     <div className="footer-apartments">
-                        <div className="footer-apartments-header">
-                        <span>Apartamenty</span>
-                        </div>
-                        <div className="footer-apartments-zakopane">
-                            <img className="apartments-logo-zakopane" src={apartmentsLogo} alt="apartments-logo" />
-                            <Link to="/zakopane"><span>Zakopane</span></Link>
-                        </div>
-                        <div className="footer-apartments-primosten">
-                            <img className="apartments-logo-primosten" src={apartmentsLogo} alt="apartments-logo" />
-                            <Link to="/primosten"><span>Primosten</span></Link>
-                        </div>
+                        <div className="footer-apartments-text-box">
+                            <div className="footer-apartments-header">
+                                <span>Zasady</span>
+                            </div>
+                            <div className="footer-apartments-zakopane" onClick={handleButtonRegulamin}>
+                                <img className="apartments-logo-zakopane" src={apartmentsLogo} alt="apartments-logo" />
+                                <span>Regulamin Serwisu</span>
+                            </div>
+                            <div className="footer-apartments-primosten" onClick={handleButtonPolityka}>
+                                <img className="apartments-logo-primosten" src={apartmentsLogo} alt="apartments-logo" />
+                                <span>Polityka Prywatnosci</span>
+                            </div>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     )
 }
