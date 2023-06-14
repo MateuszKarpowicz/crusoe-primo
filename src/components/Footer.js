@@ -55,7 +55,7 @@ function Footer() {
                 <div className="footer-bandoc-pillow">
                     <img className="footer-bandoc-pillow-img" src={bandocPillowe} alt="Bandoc Pillow" />
                     <div className="footer-bandoc-logo">
-                    <a href="https:/bandofcreators.com/"><img className="footer-bandoc-logo-img" src={bandocLogo} alt="Bandoc Logo" /></a>
+                    <a href="https:/bandofcreators.pl/"><img className="footer-bandoc-logo-img" src={bandocLogo} alt="Bandoc Logo" /></a>
                     </div>
                 </div>
                 <div className="footer-contact-container">
