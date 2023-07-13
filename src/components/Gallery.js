@@ -10,8 +10,8 @@ const Gallery = () => {
     useEffect(() => {
         const importImages = async () => {
             const importedImages = [];
-            for (let i = 1; i <= 12; i++) {
-                const image = await import(`../assets/apartment/image${i}.webp`);
+            for (let i = 1; i <= 6; i++) {
+                const image = await import(`../assets/apartmentgold/gold${i}.webp`);
                 importedImages.push(image.default);
             }
             setImages(importedImages);

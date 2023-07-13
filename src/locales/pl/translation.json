@@ -23,16 +23,27 @@
   "togetherPage":{
     "description" : "Apartament jest dogodnie usytuowany w pobliżu licznych atrakcji Primošten. Możesz cieszyć się spacerami po urokliwej starej części miasta, odkrywać lokalne restauracje i bary, oraz korzystać z pięknych plaż, które są zaledwie kilka kroków od apartamentu."
   },
-  "apartmentCard": {
-    "title": "Crusoe Primošten",
-    "titlePS" : "Starannie zaprojektowany, pełen stylu i komfortu. Z przepięknymi widokami na Adriatyk.",
-    "feature1": "Położony w malowniczym miasteczku Primošten.",
-    "feature2": "Elegancki apartament z wygodną strefą wypoczynkową i jadalnią.",
-    "feature3": "Komfortowa, przestronna sypialnia.",
-    "feature4": "Luksusowa łazienka do relaksu po dniu pełnym atrakcji.",
-    "feature5": "Pełni wyposażona kuchnia do samodzielnego gotowania.",
-    "feature6": "Taras z widokiem na błękitne wody Adriatyku.",
-    "feature7": "Idealna lokalizacja blisko atrakcji Primošten i plaż."
+  "apartmentCardGold": {
+    "title": "Apartament Gold",
+    "titlePS": "Dwupoziomowy, o powierzchni 100 m2. Elegancki i komfortowy.",
+    "feature1": "Starannie zaprojektowany, otoczony elegancją i nowoczesnością.",
+    "feature2": "Wygodna strefa wypoczynkowa w salonie oraz pełni wyposażona kuchnia.",
+    "feature3": "Przestronna sypialnia na drugim poziomie.",
+    "feature4": "Nowoczesna łazienka na parterze.",
+    "feature5": "Taras z widokiem na turkusowe wody Adriatyku.",
+    "feature6": "Doskonałe miejsce do odpoczynku po dniu pełnym atrakcji.",
+    "feature7": "Dogodnie usytuowany blisko licznych atrakcji Primošten."
+  },
+  "apartmentCardSilver": {
+    "title": "Apartament Silver",
+    "titlePS": "Jednopoziomowy, o powierzchni 55 m². Przestronny i przytulny.",
+    "feature1": "Z osobnym wejściem i eleganckim wnętrzem.",
+    "feature2": "Przestronny salon z aneksem kuchennym.",
+    "feature3": "Komfortowa sypialnia z garderobą.",
+    "feature4": "Luksusowa łazienka z nowoczesnym wyposażeniem i prysznicem.",
+    "feature5": "Idealne miejsce do odpoczynku po dniu pełnym wrażeń.",
+    "feature6": "Najwyższej jakości łóżko dla spokojnego snu.",
+    "feature7": "Przystosowany do długotrwałego pobytu z wystarczającą ilością miejsca na przechowywanie rzeczy."
   },
   "roomAdmin": {
     "book" : "Zarezerwuj"
